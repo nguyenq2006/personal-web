@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<title>About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="source/css/style.css">
+<!-- <style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+</style>
+<body class="w3-content w3-black" style="max-width:1500px;"> -->
+
+<!-- directory -->
+<ul class="w3-navbar w3-card-2 w3-black">
+  <li><a href="index.html">Home</a></li>
+  <li class="w3-dropdown-hover">
+    <a href="about_me.html">About Me <i class="fa fa-caret-down"></i></a>
+    <div class="w3-dropdown-content w3-white w3-card-4">
+      <a href="#bio">Biography</a>
+      <a href="#project">Projects</a>
+      <a href="#experiences">Experiences</a>
+    </div>
+  </li>
+</ul>
+
+<!-- Header with Slideshow -->
+<div class="w3-dontainer w3-center">
+    <img src="source/images/wordcloud.jpg" width="1280" height="733">
+</div>
+
+<!-- The Bio Section -->
+<div id="bio" class="w3-padding-64 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>Biography</b></h1>
+      <h1 class="w3-xxxlarge w3-text-green"><b>Quoc Nguyen, Software Developer</b></h1>
+      <p><span class="w3-xlarge">I'm a third Computer Science major at San Jose State. My career goal is to become a full-stack developer with emphasis on information security. </span><br>
+      <br>
+      <span class="w3-xlarge">I’m a simple, ambitious person that love to spread the knowledges that could help other people succeed in whatever they do.</span></p>
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="source/images/profile.jpg" class="w3-image w3-right w3-hide-small" width="300" height="350"><br>
+    </div>
+    <div class="w3-center w3-xlarge">
+    <a href="https://www.facebook.com/Nguyen.Quoc20" target="_blank" class="fa fa-facebook-official w3-hover-text-indigo" style="font-size:48px"></a>
+    <a href="https://www.instagram.com/quocadile6" target="_blank" class="fa fa-instagram w3-hover-text-purple" style="font-size:48px"></a>
+    <a href="https://www.linkedin.com/in/quocpnguyen" target="_blank" class="fa fa-linkedin w3-hover-text-indigo" style="font-size:48px"></a>
+    <a href="https://www.github.com/nguyenq2006" target="_blank" class="fa fa-github w3-hover-text-black" style="font-size:48px"></a>
+    <a href="mailto:nguyenq2006@gmail.com" class="fa fa-envelope w3-hover-text-blue" style="font-size:48px"></a>
+  </div>
+  </div>
+
+</div>
+
+<!-- PROJECT -->
+<div id="project" class="slideshow-container w3-grey" style="min-width:100%">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <!-- <h1 class="w3-jumbo"><b>Projects</b></h1> -->
+           <img src="source/images/code.jpg" alt="Lights" style="width:100%" height="730">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="w3-row-padding w3-center">
+              <div class="w3-third">
+                <img src="source/images/web.jpg" class="w3-image" style="margin:35px 0px">
+                <img src="source/images/web1.jpg" class="w3-image" style="margin:10px 0px">
+              </div>
+              <div class="w3-jumbo">Personal Website</div>
+              <h2 class="w3-text-white">February, 2017</h2>
+              <h3 style="margin: 100px 40px">Created a personal website by using HTML/CSS to showcase my skills and projects. This is the first website I ever built. I had no experience in HTML or CSS before this. I learn the necessary skills about the languages along the way, and used the documentation and resources on W3school to help me put the site together</h3>
+          </div>
+        </div>
+
+         <div class="mySlides fade">
+          <div class="w3-row-padding w3-center">
+              <div class="w3-third">
+                <img src="source/images/app1.png" class="w3-image" style="margin:35px 0px">
+                <img src="source/images/app2.png" class="w3-image" style="margin:10px 0px" width="200" height="300">
+              </div>
+              <div class="w3-jumbo">SJSU Book Finder</div>
+              <h2 class="w3-text-white">April, 2016</h2>
+              <h3 style="margin: 100px 40px">My classmates and I created a an iOS application as a project for our CS 146 class, Data Structure and Algorithms. As a part of the team, I was in charge of implementing the data structure to store all the data. One of the algorithms that I used in this project is AVL tree. I used AVL tree to store the all the books. I chose AVL tree because the efficiency of searching is log(n). All the code was done in Java, except for the user interface.</h3>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="w3-row-padding w3-center">
+              <div class="w3-third">
+                <img src="source/images/mancala1.png" class="w3-image" style="margin:25px 0px">
+                <img src="source/images/mancala2.png" class="w3-image" style="margin:0px 0px">
+                <img src="source/images/mancala3.png" class="w3-image" style="margin:10px 0px" height="200" width="200">
+              </div>
+              <div class="w3-jumbo">Mancala Game</div>
+              <h2 class="w3-text-white">April, 2016</h2>
+              <h3 style="margin: 100px 40px">Mancala Game was my final project in CS 151, Object-Oriented Programming. On this project, I applied different design patterns, used the skills on Java Swing that I developed through out the semester to build the app. The main patterns I used on the project is MVC and strategy pattern. MVC pattern helped me organized my code in a way that it easier for me to understand. Strategy pattern was used to manage different layout of the board.</h3>
+          </div>
+        </div>
+
+         <div class="mySlides fade">
+          <div class="w3-row-padding w3-center">
+              <div class="w3-third">
+                <img src="source/images/checkin1.png" class="w3-image" style="margin:50px 0px" width="400" height="350">
+                <img src="source/images/checkin2.png" class="w3-image" style="margin:10px 0px" width="250" height="200">
+                <img src="source/images/checkin3.png" class="w3-image" style="margin:10px 0px" width="250" height="200">
+              </div>
+              <div class="w3-jumbo">Check-in System</div>
+              <h2 class="w3-text-white">November, 2016</h2>
+              <h3 style="margin: 60px 40px">As a Supplemental Instruction leader, I have to keep track of all the students that come to my session, so the professor can give them their participation points at the end of the semester. I used Google spreadsheet to keep track of all the students, but because of confidentiality, I can’t let the students see came to my session before and how many points they have. Every session, I had to create and new spreadsheet, and at the end of the semester I had to go through all the spreadsheet and calculate the point. This is when I decided to make application that help me keep track of the students, and make it easier for them to check in. The check-in system all the students to check-in using their ID. In addition, the system keep track of all the points, and which section the student attended. </h3>
+          </div>
+        </div>
+  <div id="slide" class="w3-display-bottommiddle w3-container  w3-padding-64">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+
+<!-- Experiences -->
+<div id="experiences" class="w3-container w3-padding-64 w3-light-grey">
+  <h1 class="w3-jumbo w3-center"><b>Experiences</b></h1>
+  <p class="w3-center">Skills, Knowledges, Experiences</p>
+
+  <div class="w3-row-padding">
+    <font size="5" class="w3-text-blue w3-left">SJSU Peer Connections<br></font>
+  </div>
+  <div class="w3-row-padding">
+    <p class="w3-left w3-light-grey">Jan, 2016 - Present</p>
+    <p class="w3-right w3-light-grey">San Jose, CA</p>
+  </div> 
+  <div class="w3-row-padding w3-left">
+    <font size="4.5"><b>Peer Educator/SI Leader</b><br></font>
+    <font size="3" class="w3-text-grey"> - A part of group that piloted Supplemental Instruction(SI) program at SJSU <br> - Assist professor in Introduction to Programming(Java) class, in term of guiding the students, and answering questions<br> - Plan and faciliate study session to help students get a deeper understanding on the concept and succeed in the course<br> - Tutor students in subjects like computer science and math<br>
+    </font>
+    
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-black w3-center w3-xlarge">
+  <div class="w3-section">
+    <a href="https://www.facebook.com/Nguyen.Quoc20" target="_blank" class="fa fa-facebook-official w3-hover-text-indigo"></a>
+    <a href="https://www.instagram.com/quocadile6" target="_blank" class="fa fa-instagram w3-hover-text-purple"></a>
+    <a href="https://www.linkedin.com/in/quocpnguyen" target="_blank" class="fa fa-linkedin w3-hover-text-indigo"></a>
+    <a href="https://www.github.com/nguyenq2006" target="_blank" class="fa fa-github w3-hover-text-grey"></a>
+    <a href="mailto:nguyenq2006@gmail.com" class="fa fa-envelope w3-hover-text-blue"></a>
+  </div>
+  <p class="w3-medium">Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
+
