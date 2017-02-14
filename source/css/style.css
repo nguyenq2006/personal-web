@@ -5,9 +5,13 @@
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  width: 1280px;
-  height: 730px;
+  min-width: 1280px;
+  min-height: 730px;
   margin: auto;
+}
+
+.header {
+    background-image: url("source/images/wordcloud.jpg");
 }
 
 /* Next & previous buttons */
