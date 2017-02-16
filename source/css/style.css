@@ -10,9 +10,6 @@
   margin: auto;
 }
 
-.header {
-    background-image: url("source/images/wordcloud.jpg");
-}
 
 /* Next & previous buttons */
 .prev, .next {
